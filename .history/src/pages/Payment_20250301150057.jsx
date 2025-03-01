@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { processPayment } from "../services/PaymentService";
+import { processPayment } from "../services/aymentService";
 
 const Payment = () => {
   const [amount, setAmount] = useState("");
